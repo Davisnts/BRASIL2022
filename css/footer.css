@@ -1,0 +1,62 @@
+.footer {
+    background: rgb(234 238 15);
+  }
+  
+.footer-container {
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    gap: 100px;
+    align-items: center;
+}
+  
+.footer-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #cccccc;
+}
+.footer-contatotel{
+    flex: 1;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    position: relative;
+    align-self: flex-end;
+}
+
+.footer-contatomail{
+  flex: 1;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+  align-self: flex-start;
+}
+.footer-contato li {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    color: #ffffff;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+    }
+.footer-contato{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.footer-contato li h3 {
+    color: #6ab708;
+}
+  
+.footer-copy {
+    font-size: 1.125rem;
+    color: #000;
+    justify-self: center;
+}
+  
+  
